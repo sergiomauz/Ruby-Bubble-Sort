@@ -1,11 +1,11 @@
-def print_array (arr)
+def print_array(arr)
   i = 0
   s = ''
   while i < arr.length
     s = s + ' ' + arr[i].to_s
     i += 1
   end
-  puts (s + "\n")
+  puts (s+"\n")
 end
 
 def bubble_sort_by(arr)  
