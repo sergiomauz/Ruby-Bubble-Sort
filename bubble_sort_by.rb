@@ -1,16 +1,16 @@
 def print_array (arr)
   i = 0
-  s = ""
+  s = ''
   while i < arr.length
-    s = s + " " + arr[i].to_s
-    i = i + 1
+    s = s + ' ' + arr[i].to_s
+    i += 1
   end
   puts (s + "\n")
 end
 
-def bubble_sort_by (arr)  
+def bubble_sort_by(arr)  
   if arr.length > 1
-   k = arr.length  
+    k = arr.length
   while k > 1 do
       i = 0 
       while (i < k - 1) do
