@@ -17,17 +17,15 @@ def bubble_sort_by(arr)
         if yield(arr[i], arr[i + 1]) > 0
           arr[i], arr[i + 1] = arr[i + 1], arr[i]
         end
-        i = i + 1
+        i += 1
       end
-      k = k - 1
-    end
+      k -= 1
+  end
   end  
-
   return arr
 end
 
-
-new_array = bubble_sort_by(["hi","hello","hey", "h"]) do |left, right|
+new_array = bubble_sort_by(%w['hi', 'hello', 'hey', 'h']) do |left, right|
   left.length - right.length
 end
 
