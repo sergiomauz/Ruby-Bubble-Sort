@@ -1,6 +1,6 @@
 def print_array(arr)
   i = 0
-  s = ""
+  s = ''
   while i < arr.length
     s = s + ' ' + arr[i].to_s
     i += 1
