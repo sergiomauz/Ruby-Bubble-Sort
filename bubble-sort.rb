@@ -23,6 +23,5 @@ def bubble_sort(arr)
   end
   print_array(arr)
 end
-
 array_a = [4, 3, 78, 2, 0, 2]
 bubble_sort(array_a)
