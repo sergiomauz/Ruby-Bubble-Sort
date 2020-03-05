@@ -5,7 +5,7 @@ def print_array(arr)
     s = s + ' ' + arr[i].to_s
     i += 1
   end
-  puts (s+"\n")
+  puts(s + "\n")
 end
 
 def bubble_sort_by(arr)
