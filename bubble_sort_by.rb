@@ -11,7 +11,7 @@ end
 def bubble_sort_by(arr)
   if arr.length > 1
     k = arr.length
-  while k > 1
+    while k > 1
       i = 0 
       while (i < k - 1)
         if yield(arr[i], arr[i + 1]) > 0
@@ -20,7 +20,7 @@ def bubble_sort_by(arr)
         i += 1
       end
       k -= 1
-  end
+    end
   end  
   return arr
 end
