@@ -8,12 +8,12 @@ def print_array(arr)
   puts (s+"\n")
 end
 
-def bubble_sort_by(arr)  
+def bubble_sort_by(arr)
   if arr.length > 1
     k = arr.length
-  while k > 1 do
+  while k > 1
       i = 0 
-      while (i < k - 1) do
+      while (i < k - 1)
         if yield(arr[i], arr[i + 1]) > 0
           arr[i], arr[i + 1] = arr[i + 1], arr[i]
         end
