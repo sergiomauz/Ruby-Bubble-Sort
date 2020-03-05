@@ -12,9 +12,9 @@ def bubble_sort_by(arr)
   if arr.length > 1
     k = arr.length
     while k > 1
-      i = 0 
-      while (i < k - 1)
-        if yield(arr[i], arr[i + 1]) > 0
+      i = 0
+      while i < k - 1
+        if yield(arr[i], arr[i + 1]).positive?
           arr[i], arr[i + 1] = arr[i + 1], arr[i]
         end
         i += 1
@@ -22,7 +22,7 @@ def bubble_sort_by(arr)
       k -= 1
     end
   end  
-  return arr
+  arr
 end
 
 new_array = bubble_sort_by(%w['hi', 'hello', 'hey', 'h']) do |left, right|
