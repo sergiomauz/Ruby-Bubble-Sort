@@ -24,9 +24,3 @@ def bubble_sort_by(arr)
   end
   arr
 end
-
-new_array = bubble_sort_by(%w[hi hello hey h]) do |left, right|
-  left.length - right.length
-end
-
-puts new_array
