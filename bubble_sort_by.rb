@@ -3,7 +3,7 @@ def bubble_sort_by(arr)
   while k > 1
     i = 0
     while i < k - 1
-      arr[i], arr[i + 1] = arr[i + 1], arr[i]  if yield(arr[i], arr[i + 1]).positive?
+      arr[i], arr[i + 1] = arr[i + 1], arr[i] if yield(arr[i], arr[i + 1]).positive?
       i += 1
     end
     k -= 1
