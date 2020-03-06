@@ -1,4 +1,4 @@
-def bubble_sort_by(arr)  
+def bubble_sort_by(arr)
   k = arr.length
   while k > 1
     i = 0
@@ -9,6 +9,6 @@ def bubble_sort_by(arr)
       i += 1
     end
     k -= 1
-  end  
-  return arr
+  end
+  arr
 end
