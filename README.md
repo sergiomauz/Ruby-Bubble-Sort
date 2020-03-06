@@ -29,8 +29,8 @@ example ruby bubble_sort.rb
 
 👤 **Sergio Zambrano**
 
-- Github: [Sergio Zambrano](https://github.com/sergiomauz)
-- Twitter: [Sergio Zambrano](https://twitter.com/sergiomauz)
+- Github: [@sergiomauz](https://github.com/sergiomauz)
+- Twitter: [@sergiomauz](https://twitter.com/sergiomauz)
 - Linkedin: [Sergio Zambrano](https://www.linkedin.com/in/sergiomauz/)
 
 
